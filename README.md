@@ -36,14 +36,16 @@ Dự án cho phép điều khiển 4 thiết bị điện từ xa bằng tin nh�
 
 ## 📁 Cấu trúc thư mục
 
-```bash
 sms-control-pic16f877a/
-├── src/
-│   ├── main.c          # Code chính xử lý SMS + thiết bị
-│   └── LCD.c           # Thư viện LCD 16x2
-├── README.md           # File mô tả dự án
-├── .gitignore          # (tuự chọn) Bỏ qua file *.hex, *.lst...
-```
+├── hardware/                  # Thư mục phần cứng
+│   ├── PCB_Ver1.PrjPcb        # Dự án Altium (mạch nguyên lý & PCB)
+│   ├── PCB_3D.zip             # Mô hình 3D của PCB
+│   └── Product.zip            # File đóng gói sản phẩm phần cứng
+│
+├── soft/                      # Thư mục phần mềm
+│   └── main.c                 # Mã nguồn chương trình chính (CCS C)
+│
+├── README.md                  # File mô tả dự án
 
 ---
 
